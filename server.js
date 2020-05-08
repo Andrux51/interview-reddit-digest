@@ -15,8 +15,6 @@ app.locals.dbConfig = {
 }
 app.locals.title = `World's Okayest Reddit Daily Digest`
 
-// EMAIL OF A MEMBER OF THE USERS DB COLLECTION
-app.locals.currentUserEmail = 'amogh@mesh.ram'
 app.locals.emailApiKey = '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'
 app.locals.uiData = {
   title: app.locals.title

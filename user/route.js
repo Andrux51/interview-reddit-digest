@@ -10,7 +10,7 @@ const User = mongoose.model('User', userSchema)
 {
  "name": "Amogh Meshram",
  "email": "amogh@mesh.ram",
- "favoriteSubs": ["worldnews", "technology", "funny"]
+ "favoriteSubs": ["mypeopleneedme", "prequelmemes", "modelmakers"]
 }
 */
 
