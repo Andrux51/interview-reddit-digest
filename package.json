@@ -1,0 +1,21 @@
+{
+  "name": "hearcom",
+  "version": "1.0.0",
+  "description": "It would be awesome if we (users) can receive a personalized daily email newsletter at 8 am\r containing top 3 most voted posts (within the last 24 hours) from our (the user’s) favorite\r sub-reddit channels.",
+  "main": "redditNotifier.js",
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.0",
+    "bluebird": "^3.7.2",
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "mongoose": "^5.9.12",
+    "node-fetch": "^2.6.0",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

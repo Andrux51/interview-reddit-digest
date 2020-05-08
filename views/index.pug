@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title #{title}
+  body
+    h1 #{title.toUpperCase()}
+    p Thanks for subscribing! Here are today's top 3 posts from your favorite subreddits.
+    hr
+    each post in redditPosts
+      h3 #{post.title} (^#{post.score.toLocaleString()})
+      h5 Posted to #{post.subreddit_name_prefixed} on #{new Date(post.created_utc*1000)}
+      a(href=`http://reddit.com${post.permalink}`) #{post.permalink}
+      p #{post.num_comments.toLocaleString()} people are talking about this
+      img(src=post.thumbnail width=300)
+      hr
