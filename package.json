@@ -10,7 +10,7 @@
     "moment": "^2.25.3",
     "mongoose": "^5.9.12",
     "node-fetch": "^2.6.0",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   },
   "devDependencies": {},
   "scripts": {
